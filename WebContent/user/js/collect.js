@@ -1,0 +1,19 @@
+/**
+ * Created by ttssiw on 2017/1/3.
+ */
+//头部hover
+$(".care").hover(function(){
+    $(this).attr('src',"../img/header/care1.png");
+},function(){
+    $(this).attr('src',"../img/header/care.png");
+});
+$(".order").hover(function(){
+    $(this).attr('src',"../img/header/order1.png");
+},function(){
+    $(this).attr('src',"../img/header/order.png");
+});
+$(".shopcar").hover(function(){
+    $(this).attr('src',"../img/header/shop_car1.png");
+},function(){
+    $(this).attr('src',"../img/header/shop_car.png");
+});
